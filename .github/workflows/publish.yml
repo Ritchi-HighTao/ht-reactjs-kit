@@ -23,5 +23,5 @@ jobs:
     - run: npm ci
     - run: npm run prepare:publish
     - run: npm publish --access public
-        env: 
-          ENV_NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      env: 
+        ENV_NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
