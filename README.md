@@ -1,15 +1,23 @@
-### React Kit for Hightao's recrutement platform
-###### - To prepare publishing :
-Run :
-```sh
-npm run prepare:publish
-```
+# React Kit for hightao-mg
 
-###### - To publish :
-Run 
-```sh
-npm publish
-```
+install or update to the latest version with:
 
-Note : **Do not forget to upgrade version in package.json when publishing !**
+`npm i @hightao-dev/reactjs`
 
+## Publish the package
+
+To publish the package you have to:
+
+## Create a new version
+
+`npm version patch`
+
+## Push or make a PR
+
+After upgrading the version, you can begin your development
+
+When finished you need to push directly on **master** if you have the permission.
+
+Or,
+
+Open a **Pull Request** on master
