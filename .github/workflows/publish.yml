@@ -20,8 +20,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: install
+      run: npm ci
+    - name: generate
+      run: npm run prepare:publish
+    - name: publish
+      run: npm publish --access public
       env: 
         ENV_NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-    - run: npm ci
-    - run: npm run prepare:publish
-    - run: npm publish --access public
