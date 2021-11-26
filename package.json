@@ -1,7 +1,10 @@
 {
   "name": "@hightao-dev/reactjs",
-  "description": "React kit for hightao recrutment platform",
+  "description": "Hightao-mg's ReactJs Kit",
   "version": "1.0.1",
+  "repository": {
+    "url": "git@github.com:TchiRubick/ht-reactjs-kit.git"
+  },
   "dependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.14.8",
