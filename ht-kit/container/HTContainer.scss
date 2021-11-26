@@ -1,0 +1,9 @@
+@import '../style.scss';
+
+.ht-container {
+  width: 60vw;
+  margin: auto;
+  @include mobileBreakpoint {
+    width: 67vw;
+  }
+}

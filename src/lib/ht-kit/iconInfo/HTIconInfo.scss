@@ -1,0 +1,25 @@
+@import '../style.scss';
+
+@mixin info($str , $f1 , $f2) {
+    :nth-child(1) {
+        stroke: $str ;
+        fill: $f1;
+    }
+    :nth-child(2) {
+        path {
+            fill: $f2;
+        }
+    }
+}
+
+.ht-icon-info {
+    cursor: pointer;
+    g {
+        @include info( $color-black,transparent,$color-black );
+    }
+    &.active {
+        g {
+            @include info(none,$color-primary,$color-white )
+        }
+    }
+}
