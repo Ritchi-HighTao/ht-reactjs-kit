@@ -17,6 +17,7 @@ import HTTheme from './ht-kit/theme/HTTheme';
 import HTClickAway from './ht-kit/clickAway/HTClickAway';
 import HTSidebar from './ht-kit/sidebar/HTSidebar';
 import HTTable from './ht-kit/table/HTTable';
+import HTAlert from './ht-kit/alert/HTAlert';
 
 export {
   HTAvatar,
@@ -37,5 +38,6 @@ export {
   HTTheme,
   HTSidebar,
   HTClickAway,
-  HTTable
+  HTTable,
+  HTAlert
 };
