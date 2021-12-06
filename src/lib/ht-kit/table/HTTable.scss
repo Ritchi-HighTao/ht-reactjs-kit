@@ -9,7 +9,7 @@
 
   th {
     padding: 0 1rem;
-    border-bottom: solid 1px $color-border;
+    border-bottom: solid 1px;
     text-align: left;
     vertical-align: middle;
     font-weight: bold;
@@ -17,7 +17,7 @@
 
   td {
     padding: 0 1rem;
-    border-bottom: solid 1px $color-border;
+    border-bottom: solid 1px;
     vertical-align: middle;
   }
 }
