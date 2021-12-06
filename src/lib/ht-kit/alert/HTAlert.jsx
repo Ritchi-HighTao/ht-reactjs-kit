@@ -1,28 +1,31 @@
 import React from 'react';
 import './HTAlert.scss';
-import Snackbar from '@material-ui/core/Snackbar';
-import IconButton from '@material-ui/core/IconButton';
-import CloseIcon from '@material-ui/icons/Close';
+import Stack from "@mui/material/Stack";
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
+
+const Alert = React.forwardRef(function Alert(props, ref) {
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+});
 
 const HTAlert = ({
   onClose,
   open,
   message,
   autoHideDuration,
-  onClick
+  sevirity
 }) => <div>
-  <Snackbar
-    open={open}
-    autoHideDuration={autoHideDuration}
-    onClose={onClose}
-    message={message}
-    onClick={onClick}
-    action={[
-      <IconButton key="close" onClick={onClick}>
-        <CloseIcon />
-      </IconButton>
-    ]}
-  />
+  <Stack spacing={2} sx={{ width: "100%" }}>
+    <Snackbar
+      open={open}
+      autoHideDuration={autoHideDuration}
+      onClose={onClose}
+    >
+      <Alert onClose={onClose} severity={sevirity} sx={{ width: "100%" }}>
+        {message}
+      </Alert>
+    </Snackbar>
+  </Stack>
 </div>
 
 export default HTAlert;
