@@ -1,8 +1,6 @@
 import React from 'react';
 import './HTAlert.scss';
-import Stack from "@mui/material/Stack";
-import Snackbar from "@mui/material/Snackbar";
-import Alert from "@mui/material/Alert";
+import { Alert, Snackbar, Stack } from "@mui/material";
 
 const HTAlert = ({
   onClose,
