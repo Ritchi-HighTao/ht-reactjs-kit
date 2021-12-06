@@ -1,7 +1,7 @@
 {
   "name": "@hightao-dev/reactjs",
   "description": "Hightao-mg's ReactJs Kit",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "repository": {
     "url": "git@github.com:TchiRubick/ht-reactjs-kit.git"
   },
@@ -15,7 +15,6 @@
     "@material-ui/lab": "*",
     "@material-ui/pickers": "^3.3.10",
     "@mui/material": "^5.2.2",
-    "@mui/styled-engine-sc": "^5.1.0",
     "@mui/x-data-grid": "^4.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
