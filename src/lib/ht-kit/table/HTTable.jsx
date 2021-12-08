@@ -34,7 +34,7 @@ const HTTable = (props) => {
   };
 
   const renderLine = (lineData) => lineRenders.map((lineRender) => (
-    <td key={getKey(lineData)}>{renderCell(lineRender, lineData)}</td>
+    <td key={getKey(lineRender)}>{renderCell(lineRender, lineData)}</td>
   ));
 
   const renderBody = () => {
