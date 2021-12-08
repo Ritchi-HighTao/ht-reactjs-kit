@@ -25,10 +25,17 @@ const HTTable = (props) => {
 
   const renderCell = (lineRender, lineData) => lineRender.render(lineData);
 
-  const renderLine = (lineData) =>
-    lineRenders.map((lineRender) => (
-      <td key={lineRender.key}>{renderCell(lineRender, lineData)}</td>
-    ));
+  const getKey = (l) => {
+    if (l.id) {
+      return l.id;
+    }
+
+    return l[Object.keys(l)[0]];
+  };
+
+  const renderLine = (lineData) => lineRenders.map((lineRender) => (
+    <td key={getKey(lineData)}>{renderCell(lineRender, lineData)}</td>
+  ));
 
   const renderBody = () => {
     if (!data || !lineRenders) {
@@ -36,7 +43,7 @@ const HTTable = (props) => {
     }
 
     return data.map((lineData) => (
-      <tr key={lineData.key}>{renderLine(lineData)}</tr>
+      <tr key={getKey(lineData)}>{renderLine(lineData)}</tr>
     ));
   };
 
