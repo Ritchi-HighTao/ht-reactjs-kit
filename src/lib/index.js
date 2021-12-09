@@ -18,6 +18,7 @@ import HTClickAway from './ht-kit/clickAway/HTClickAway';
 import HTSidebar from './ht-kit/sidebar/HTSidebar';
 import HTTable from './ht-kit/table/HTTable';
 import HTAlert from './ht-kit/alert/HTAlert';
+import HTPagination from './ht-kit/pagination/HTPagination';
 
 export {
   HTAvatar,
@@ -39,5 +40,6 @@ export {
   HTSidebar,
   HTClickAway,
   HTTable,
-  HTAlert
+  HTAlert,
+  HTPagination
 };
