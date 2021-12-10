@@ -2,7 +2,6 @@
 
 .ht-pagination {
   .ht-pagination__button {
-
     &.ht-pagination__button__hide-mobile {
       @include mobileBreakpoint {
         display: none;
@@ -18,7 +17,7 @@
     padding: 0.5rem;
     background-color: white;
     color: black;
-    border: solid 1px $color-border;
+    border: solid 1px;
     border-radius: 2px;
     margin: 0 3px;
     min-width: 2.5rem;
@@ -43,8 +42,8 @@
     font-size: inherit;
     padding: 0.5rem;
     background-color: black;
-    color: white;
-    border: solid 1px $color-border;
+    color: rgb(150, 92, 92);
+    border: solid 1px;
     border-radius: 2px;
     box-sizing: border-box;
     margin: 0 0.1rem;
