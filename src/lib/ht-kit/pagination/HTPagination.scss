@@ -2,21 +2,11 @@
 
 .ht-pagination {
   .ht-pagination__button {
-    &.ht-pagination__button__hide-mobile {
-      @include mobileBreakpoint {
-        display: none;
-      }
-
-      @include tabletBreakpoint {
-        display: none;
-      }
-    }
-
     box-sizing: border-box;
     font-size: inherit;
     padding: 0.5rem;
     background-color: white;
-    color: black;
+    color: rgb(150, 146, 146);
     border: solid 1px;
     border-radius: 2px;
     margin: 0 3px;
@@ -24,7 +14,7 @@
 
     &:not([disabled]):hover {
       cursor: pointer;
-      background-color: black;
+      background-color: rgb(150, 146, 146);
       color: white;
     }
 
@@ -41,7 +31,7 @@
   .ht-pagination__button-active {
     font-size: inherit;
     padding: 0.5rem;
-    background-color: black;
+    background-color: rgb(150, 146, 146);
     color: rgb(150, 92, 92);
     border: solid 1px;
     border-radius: 2px;

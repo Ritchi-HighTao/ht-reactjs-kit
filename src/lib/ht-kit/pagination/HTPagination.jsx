@@ -100,7 +100,9 @@ const HTPagination = (props) => {
         className="ht-pagination__button ht-pagination__button__hide-mobile"
         type="button"
       >
-        <span className="ht-pagination__button-icon">Icon Left</span>
+        <span className="ht-pagination__button-icon">
+          {'<<'}
+        </span>
         <span className="ht-pagination__button-text">Previous</span>
       </button>
       {renderPageButtons()}
@@ -111,7 +113,9 @@ const HTPagination = (props) => {
         type="button"
       >
         <span className="ht-pagination__button-text">Next</span>
-        <span className="ht-pagination__button-icon">Icon Right</span>
+        <span className="ht-pagination__button-icon">
+          {'>>'}
+        </span>
       </button>
     </div>
   );
