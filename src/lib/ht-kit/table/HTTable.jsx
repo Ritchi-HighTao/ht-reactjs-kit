@@ -44,7 +44,7 @@ const HTTable = (props) => {
     }
 
     return data.map((lineData) => (
-      <tr onClick={onClick} key={getKey(lineData)}>{renderLine(lineData)}</tr>
+      <tr onClick={onClick(lineData)} key={getKey(lineData)}>{renderLine(lineData)}</tr>
     ));
   };
 
