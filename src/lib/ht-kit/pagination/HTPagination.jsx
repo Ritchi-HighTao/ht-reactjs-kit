@@ -19,9 +19,9 @@ const HTPagination = (props) => {
     window.addEventListener('resize', handleResize);
   });
 
-  const handleOnChange = (newPage) => (e) => {
+  const handleOnChange = (newPage) => () => {
     if (onChange) {
-      onChange(e, newPage);
+      onChange(newPage);
     }
   };
 

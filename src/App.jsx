@@ -16,7 +16,6 @@ function App() {
           maxPage={2}
           currentPage={1}
         />
-
       </header>
     </div>
   );
