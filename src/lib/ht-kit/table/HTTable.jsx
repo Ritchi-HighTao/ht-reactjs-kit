@@ -6,8 +6,7 @@ const HTTable = (props) => {
   const {
     data,
     headRenders,
-    lineRenders,
-    onClick
+    lineRenders
   } = props;
 
   const renderHead = () => {
@@ -44,7 +43,7 @@ const HTTable = (props) => {
     }
 
     return data.map((lineData) => (
-      <tr onClick={onClick(lineData)} key={getKey(lineData)}>{renderLine(lineData)}</tr>
+      <tr key={getKey(lineData)}>{renderLine(lineData)}</tr>
     ));
   };
 
