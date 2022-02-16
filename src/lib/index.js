@@ -19,6 +19,8 @@ import HTSidebar from './ht-kit/sidebar/HTSidebar';
 import HTTable from './ht-kit/table/HTTable';
 import HTAlert from './ht-kit/alert/HTAlert';
 import HTPagination from './ht-kit/pagination/HTPagination';
+import HTTimePicker from './ht-kit/timePicker/HTTimePicker';
+import HTCheckbox from './ht-kit/checkbox/HTCheckbox';
 
 export {
   HTAvatar,
@@ -41,5 +43,7 @@ export {
   HTClickAway,
   HTTable,
   HTAlert,
-  HTPagination
+  HTPagination,
+  HTTimePicker,
+  HTCheckbox
 };
