@@ -15,6 +15,7 @@ const HTTimePicker = (props) => {
         variant="inline"
         ampm={false}
         openTo="hours"
+        fullWidth
         views={['hours', 'minutes', 'seconds']}
         format="HH:mm:ss"
         label={label}
