@@ -1,5 +1,6 @@
 import React from 'react';
 import Checkbox from '@material-ui/core/Checkbox';
+import { FormControlLabel } from '@material-ui/core';
 
 const HTCheckbox = (props) => {
   const {
@@ -9,11 +10,16 @@ const HTCheckbox = (props) => {
   } = props;
 
   return (
-    <Checkbox
+    <FormControlLabel
       label={label}
-      checked={checked}
-      onChange={onChange}
-    />);
+      control={
+        <Checkbox
+          checked={checked}
+          onChange={onChange}
+        />
+      }
+    />
+  );
 };
 
 export default HTCheckbox;
