@@ -22,6 +22,7 @@ import HTPagination from './ht-kit/pagination/HTPagination';
 import HTTimePicker from './ht-kit/timePicker/HTTimePicker';
 import HTCheckbox from './ht-kit/checkbox/HTCheckbox';
 import HTSpinner from './ht-kit/spinner/HTSpinner';
+import HTCard from './ht-kit/card/HTCard';
 
 export {
   HTAvatar,
@@ -47,5 +48,6 @@ export {
   HTPagination,
   HTTimePicker,
   HTCheckbox,
-  HTSpinner
+  HTSpinner,
+  HTCard
 };
