@@ -9,8 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     display: 'flex',
-    minWidth: 320,
-    maxWidth: 500
+    minWidth: 320
   }
 });
 
