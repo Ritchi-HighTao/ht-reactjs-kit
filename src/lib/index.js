@@ -23,6 +23,7 @@ import HTTimePicker from './ht-kit/timePicker/HTTimePicker';
 import HTCheckbox from './ht-kit/checkbox/HTCheckbox';
 import HTSpinner from './ht-kit/spinner/HTSpinner';
 import HTCard from './ht-kit/card/HTCard';
+import HTRadioButton from './ht-kit/radio/HTRadioButton';
 
 export {
   HTAvatar,
@@ -49,5 +50,6 @@ export {
   HTTimePicker,
   HTCheckbox,
   HTSpinner,
-  HTCard
+  HTCard,
+  HTRadioButton
 };
