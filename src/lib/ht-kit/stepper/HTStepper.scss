@@ -1,0 +1,14 @@
+@import '../style.scss';
+
+.ht-card {
+  margin: 1rem;
+}
+.next-button {
+  width: 15rem;
+  margin: auto;
+  font-weight: bold;
+  padding: 0 0 2rem 0;
+  @include tabletMobileBreakpoint {
+    width: 100%;
+  }
+}

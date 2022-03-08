@@ -24,6 +24,7 @@ import HTCheckbox from './ht-kit/checkbox/HTCheckbox';
 import HTSpinner from './ht-kit/spinner/HTSpinner';
 import HTCard from './ht-kit/card/HTCard';
 import HTRadioButton from './ht-kit/radio/HTRadioButton';
+import HTStepper from './ht-kit/stepper/HTStepper';
 
 export {
   HTAvatar,
@@ -51,5 +52,6 @@ export {
   HTCheckbox,
   HTSpinner,
   HTCard,
-  HTRadioButton
+  HTRadioButton,
+  HTStepper
 };
